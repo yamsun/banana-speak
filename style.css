@@ -1,0 +1,24 @@
+textarea {
+    width: 80%;
+    display: block;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    background-color:aquamarine;
+    height: 3rem;
+    display: block;
+    margin: auto;
+    width: 6.5rem;
+
+}
+
+#output{
+    border: 2px solid black;
+    height: 10vh;
+    padding: 1em;
+    margin: 1em;
+    width: 80%;
+}
