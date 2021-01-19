@@ -20,6 +20,8 @@ body{
 nav {
     background-color: var(--primary);
     text-align: center;
+    position:sticky;
+    top: 0;
 }
 
 main {
@@ -36,6 +38,7 @@ textarea {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    color:tomato;
 }
 
 button {
@@ -49,6 +52,7 @@ button {
 }
 
 #output{
+    color: tomato;
     box-sizing: border-box;
     width: 100%;
     min-height: 12vh;
@@ -58,7 +62,7 @@ button {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     padding: 1rem;
