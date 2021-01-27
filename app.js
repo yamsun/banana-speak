@@ -15,7 +15,7 @@ function errorHandler(error) {
 }
 
 function clickHandler() {
-    var inputText = txtInput.value; // taking input
+    var inputText = txtInput.value; // accessing or extracting the input value provided in text-area box
 
     // calling server for processing
     fetch(getTranslationURL(inputText))
@@ -26,5 +26,5 @@ function clickHandler() {
            })
         .catch(errorHandler)
 };
-
+ 
 btnTranslate.addEventListener("click", clickHandler)
